@@ -97,7 +97,7 @@
     XCTAssertNotNil(_testGuy, @"Could not create character from detail json");
     
     XCTAssertEqualObjects(_testGuy.neckItem.name,@"Stoneheart Choker", @"name is wrong");
-    XCTAssertEqualObjects(_testGuy.wristItem.name,@"Vicious Pyrium Bracers", @"name is wrong");
+    XCTAssertEqualObjects(_testGuy.wristItem.name,@"Vicious P1yrium Bracers", @"name is wrong");
     XCTAssertEqualObjects(_testGuy.waistItem.name,@"Girdle of the Queen's Champion", @"name is wrong");
     XCTAssertEqualObjects(_testGuy.handsItem.name,@"Time Strand Gauntlets", @"name is wrong");
     XCTAssertEqualObjects(_testGuy.shoulderItem.name,@"Temporal Pauldrons", @"name is wrong");
