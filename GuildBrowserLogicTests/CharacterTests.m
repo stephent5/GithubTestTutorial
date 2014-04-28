@@ -71,6 +71,9 @@
 -(void)testCreateCharacterFromDetailJsonProps
 {
     // --ADDED _testGuy
+    
+    NSLog(@"SteveTEst1");
+    
     _testGuy = [[Character alloc] initWithCharacterDetailData:_characterDetailJson];
     XCTAssertNotNil(_testGuy, @"Could not create character from detail json");
     
